@@ -266,17 +266,22 @@ html {
 
 .carrossel {
     position: relative;
-    width: 80%;
-    max-width: 800px;
+    width: 100%;
+    max-width: 1500px;
     margin: auto;
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
+
+
 
 .imagens {
     display: flex;
     transition: opacity 0.5s ease;
+    
 }
 
 .grupo {
@@ -285,8 +290,9 @@ html {
 }
 
 .grupo img {
-    width: 25%; /* Cada imagem ocupa 25% da largura do grupo (4 imagens) */
+    width: 100%; /* Cada imagem ocupa 25% da largura do grupo (4 imagens) */
     border-radius: 10px;
+    
 }
 
 .seta {
