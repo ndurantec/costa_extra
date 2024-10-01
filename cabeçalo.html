@@ -3,36 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="cabeçalo.css">
+    <link rel="stylesheet" href="asset/style/cabeçalo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>Document</title>
 </head>
 <body>
 
     <header>
         
-        <div class="hed">
-            <img src="img/frete.png" alt="">
-            <img src="img/logo.png" alt="">
-            <img src="img/cupom.png" alt="">
-        </div>
+       <!-- <div class="hed">
+            <img src="asset/img/frete.png" alt="">
+            <img src="asset/img/logo.png" alt="">
+            <img src="asset/img/cupom.png" alt="">
+        </div> -->
         
 
         <section class="header-second">
             <nav>
                 <ul class="menu">
                     <li><a href="#">Chame o vendedor</a></li>
-                    <li><a href="#">Atendimento</a></li>
-                    <li><a href="#">Tradutor para Libras</a></li>
-                    <li class="presente"><a href="#">Lista de Presentes</a></li>
+                    <li><a href="#"><i class="bi bi-chat-left-text"></i> Atendimento</a></li>
+                    <li><a href="#"><i class="bi bi-hand-index-thumb-fill"></i> Tradutor para Libras</a></li>
+                    
+                    <li class="presente"><a href="#"><i class="bi bi-gift"></i> Lista de Presentes</a></li>
                 </ul>
             </nav>      
 
             <section class="cep-section">
                 <div class="cep-container">
-                    <img src="img/logo.svg" alt="Imagem de localização" class="cep-image">
+                    <img src="asset/img/logo.svg" alt="Imagem de localização" class="cep-image">
                    
                     <button class="cp-button">
-                        <img src="icon.png" alt="Ícone" class="cp-icon">
+                        <img src="asset/icon.png" alt="Ícone" class="cp-icon">
                         Informe seu CEP
                     </button>
                     
@@ -41,22 +43,22 @@
                         <div class="pesquisa-container">
                             <input type="text" placeholder="Encontre aqui as melhores ofertas" class="pesquisa-input">
                             <button class="pesquisa-button">
-                                <img src="lupa.png" alt="Lupa" class="lupa-icon">
+                                <i class="bi bi-search"></i>
                             </button>
                         </div>
                     </section>
                     
                     <div class="icons">
-                        <img src="img/icon1.png" alt="Ícone 1" class="icon">
-                        <img src="img/icon2.png" alt="Ícone 2" class="icon">
-                        <img src="img/icon3.png" alt="Ícone 3" class="icon">
+                        <i class="bi bi-person-fill"><span>Entre ou cadastre-se para ver seus pedidos</span></i>
+                        <i class="bi bi-heart-fill"></i>
+                        <i class="bi bi-cart3"></i>
                     </div>
                 </div>
             </section>
             
             <nav class="nav-bar">
                 <ul class="nav-list">
-                    <li><a href="#">Compre por departamentos</a></li>
+                    <li><a href="#"><i class="bi bi-list"></i>Compre por departamentos</a></li>
                     <li><a href="#">Cupom</a></li>
                     <li><a href="#">Cartão Extra</a></li>
                     <li><a href="#">Baixe o APP</a></li>
