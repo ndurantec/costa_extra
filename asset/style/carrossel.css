@@ -3,10 +3,21 @@ body {
 	margin: 0 auto;
 }
 
+.visualizer {
+	margin: 30px;
+	padding-left: 100px;
+	
+}
+
+.imagem2 {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
 .botoes-proxima {
     display: flex;
 	justify-content: center;  
-    padding-top: 180px;
+    padding-top: 300px;
     gap: 1350px;
 }
 
@@ -29,6 +40,7 @@ body {
 	left: 0;
 	width: 100%;
 	z-index: -1;
+	padding-top: 300px;
 }
 
 .conteudo {
