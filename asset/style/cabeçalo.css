@@ -40,7 +40,7 @@ body{
 
 .menu a {
     text-decoration: none; /* Remove o sublinhado dos links */
-    color: #333; /* Define a cor do texto */
+    color: #ffffff; /* Define a cor do texto */
     padding: 10px 20px; /* Adiciona espaçamento interno nos links */
     padding: 5px 10px; /* Menor espaçamento interno para links */
 }
@@ -192,4 +192,30 @@ body{
 /* Linha inferior verde-marinho */
 .nav-bar {
     border-bottom: 2px solid #008080; /* Verde-marinho */
+}
+
+.bi-heart-fill{
+    font-size: 42px;
+    color: #ffffff;
+}
+
+.bi-cart3{
+    font-size: 42px;
+    color: #ffffff;
+}
+
+.bi-search{
+    font-size: 20px;
+    color: #008080;
+}
+
+.bi-person-fill{
+    max-width: 174px;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.bi-person-fill span {
+    font-size: 18px;
+    color: #ffffff;
 }
