@@ -58,6 +58,8 @@ html {
     margin: 0 auto; /* Centraliza o contêiner */
     max-width: 1300px; /* Limita a largura máxima do contêiner */
     padding: 0 20px; /* Adiciona algum espaçamento lateral para telas menores */
+    justify-content: space-between; /* Espaço entre botões e produtos */
+    position: relative; /* Para ajustar a posição dos botões */
 }
 
 .arrow-container {
@@ -68,9 +70,11 @@ html {
 
 .product-wrapper {
     display: flex;
-    justify-content: center; /* Alinha os produtos ao centro */
-    flex-wrap: nowrap; /* Impede que os itens vão para a próxima linha */
-    overflow: hidden; /* Oculta produtos fora do contêiner */
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    width: 100%; /* Ocupa toda a largura disponível */
+    position: relative;
 }
 
 .topproduct-card {
@@ -125,6 +129,26 @@ html {
     min-height: 2.25rem;
 }
 
+.seta {
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 10px;
+    color: #333;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.esquerdas {
+    left: 0; /* Coloca o botão da esquerda na borda esquerda do contêiner */
+}
+
+.direitas {
+    right: 0; /* Coloca o botão da direita na borda direita do contêiner */
+}
 
 .product-card {
     border: 1px solid #ddd;
@@ -319,6 +343,14 @@ html {
     right: 10px;
 }
 
+.esquerdass {
+    left: 10px;
+}
+
+.direitass {
+    right: 10px;
+}
+
 .products-container {
     display: flex;
     justify-content: center; /* Alinha os itens ao centro */
@@ -326,4 +358,18 @@ html {
     margin: 0 auto; /* Centraliza o contêiner */
     max-width: 1300px; /* Limita a largura máxima do contêiner */
     padding: 0 20px; /* Adiciona algum espaçamento lateral para telas menores */
+}
+
+
+.motorola {
+    margin-bottom: 50px;
+    margin-top: 6px;
+}
+
+.motop {
+    font-size: 32px;
+    margin-bottom: 1px;
+    text-align: center;
+    color: red;
+    margin-top: 70px;
 }
