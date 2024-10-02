@@ -3,10 +3,25 @@ body {
 	margin: 0 auto;
 }
 
-.visualizer {
-	margin: 30px;
-	padding-left: 100px;
-	
+.botaoprodutos {
+	display: flex;
+	justify-content: center;  
+    gap: 1500px;
+}
+
+.produtos {
+ 	text-align: center;   
+	 padding-top: 70px;
+ 	padding-right: 40px;
+}
+
+.produtos li {
+    display: inline-block;
+	padding: 20px;
+}
+
+.produtos p {
+	color: #222222;
 }
 
 .imagem2 {
@@ -17,7 +32,7 @@ body {
 .botoes-proxima {
     display: flex;
 	justify-content: center;  
-    padding-top: 300px;
+    padding-top: 230px;
     gap: 1350px;
 }
 
