@@ -3,7 +3,7 @@ body{
 }
 
 .header-second{
-    background-color: #b40000;
+    background-color: #c11926;
 }
 
 .hed {
@@ -62,7 +62,7 @@ body{
 .cep-image {
     width: 202px;
     height: auto;
-    margin-right: 20px;
+    margin-right: 155px;
 }
 
 /* Estilo do botão */
@@ -78,10 +78,6 @@ body{
     cursor: pointer; /* Cursor em forma de mão ao passar o mouse */
     transition: background-color 0.3s; /* Efeito de transição para a cor do fundo */
     margin-left: -150px;
-}
-
-.cp-button:hover {
-    background-color: #0056b3; /* Cor do botão ao passar o mouse */
 }
 
 .cp-icon {
@@ -139,19 +135,6 @@ body{
     height: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .nav-bar {
     overflow: hidden;
     border-top: 0.5px solid #0000003b; /* Linha na parte superior da barra de navegação */
@@ -179,10 +162,6 @@ body{
     text-decoration: none;
 }
 
-.nav-bar li a:hover {
-    background-color: #008CBA; /* Azul claro ao passar o mouse */
-}
-
 .nav-bar::after {
     content: "";
     display: table;
@@ -191,7 +170,7 @@ body{
 
 /* Linha inferior verde-marinho */
 .nav-bar {
-    border-bottom: 2px solid #008080; /* Verde-marinho */
+    border-bottom: 5px solid #10797e; /* Verde-marinho */
 }
 
 .bi-heart-fill{
@@ -213,9 +192,21 @@ body{
     max-width: 174px;
     font-size: 25px;
     color: #ffffff;
+    background-color: #A61722;
 }
 
 .bi-person-fill span {
     font-size: 18px;
     color: #ffffff;
+}
+
+.bi-geo-alt {
+    color: #c11926;
+}
+
+.classe1 {
+    justify-content: center;  
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
