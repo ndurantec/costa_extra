@@ -77,6 +77,22 @@ html {
     position: relative;
 }
 
+.topptp {
+    color: #10757a;
+    margin-left: -840px;
+}
+
+.ptp {
+    color: #10757a;
+    margin-left: -990px;
+}
+
+.pptp {
+    color: #10757a;
+    margin-left: -1170px;
+    margin-top: -10px;
+}
+
 .topproduct-card {
     border: 1px solid #ddd;
     padding: 16px;
@@ -85,6 +101,7 @@ html {
     margin: 10px;
     border-radius: 10px;
     display: none; /* Oculta inicialmente os produtos */
+    max-height: 427px;
 }
 
 .product-image {
