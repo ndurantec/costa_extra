@@ -1,3 +1,7 @@
+* {
+    font-family: "Mulish", sans-serif;
+}
+
 body{
     margin: 0;
 }
@@ -25,17 +29,16 @@ body{
     margin: 0; /* Remove a margem padrão da lista */
     display: flex; /* Alinha os itens horizontalmente */
     justify-content: left; /* Centraliza os itens no contêiner */
-    margin-left: 20px; /* Adiciona uma margem da borda esquerda da página */
-    margin-left: 210px;
+    margin-left: 590px;
     padding-top: 15px;
 }
 
 .menu li {
-    margin-right: 10px; /* Diminui o espaçamento entre os itens */
+    margin-right: 10px; /* Diminui o espaçamentunchbullo entre os itens */
 }
 
 .menu li.presente {
-    margin-left: 380px; /* Aumenta o espaço apenas para "Lista de Presentes" */
+    margin-left: 155px; /* Aumenta o espaço apenas para "Lista de Presentes" */
 }
 
 .menu a {
@@ -85,9 +88,6 @@ body{
     height: 20px; /* Tamanho do ícone */
     margin-right: 10px; /* Espaçamento entre o ícone e o texto */
 }
-
-
-
 
 /* Estilo dos ícones */
 .icons {
@@ -174,7 +174,7 @@ body{
 }
 
 .bi-heart-fill{
-    font-size: 42px;
+    font-size: 36px;
     color: #ffffff;
 }
 
@@ -196,7 +196,7 @@ body{
 }
 
 .bi-person-fill span {
-    font-size: 18px;
+    font-size: 15px;
     color: #ffffff;
 }
 
