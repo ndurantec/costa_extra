@@ -11,7 +11,7 @@
 */
 
 //- passo 1 - dar um jeito de pegar o elemento HTML dos botões
-const botoesCarrossel = document.querySelectorAll(".botao");
+const botoesCarrossel = document.querySelectorAll(".carrossel-botao");
 const imagens = document.querySelectorAll(".imagem");
 
 

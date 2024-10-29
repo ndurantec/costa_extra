@@ -1,9 +1,5 @@
-body {
-	font-family: "Poppins", sans-serif;
-	margin: 0 auto;
-}
 
-.botaoprodutos {
+.carrossel-botaoprodutos {
 	display: flex;
 	justify-content: center;  
     gap: 1500px;
@@ -11,18 +7,18 @@ body {
 	padding-bottom: 300px;
 }
 
-.produtos {
+.carrossel-produtos {
  	text-align: center;  
  	padding-right: 40px;
 
 }
 
-.produtos li {
+.carrossel-produtos li {
     display: inline-block;
 	padding: 20px;
 }
 
-.produtos p {
+.carrossel-produtos p {
 	color: #222222;
 }
 
@@ -31,50 +27,49 @@ body {
 	padding-right: 15px;
 }
 
-.botoes-proxima {
+.carrossel-botoes-proxima {
     display: flex;
 	justify-content: center; 
     gap: 1350px;
 
 }
 
-.botoes-proxima .botao-volta {
+.carrossel-botoes-proxima .carrossel-botao-volta {
     width: 35px;
 	height: 35px;
     cursor: pointer;
 }
 
-.botoes-proxima .botao-vai {
+.carrossel-botoes-proxima .carrossel-botao-vai {
     width: 35px;
 	height: 35px;
     cursor: pointer;
 }
 
 
-.carrossel {
-	position: fixed;
+.carrossel-carrossel {
 	top: 0;
 	left: 0;
 	width: 100%;
 	z-index: -1;
-	padding-top: 350px;
+
 }
 
-.conteudo {
+.carrossel-conteudo {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
 	min-height: 100vh;
 }
 
-.botoes-carrossel {
+.carrossel-botoes-carrossel {
 	display: flex;
 	justify-content: center;
 	gap: 15px;
     padding-top: 175px;
 }
 
-.botoes-carrossel .botao {
+.carrossel-botoes-carrossel .carrossel-botao {
 	background-color: #F2F2F2;
 	width: 15px;
 	height: 15px;
@@ -83,7 +78,7 @@ body {
 	cursor: pointer;
 }
 
-.botoes-carrossel .botao.selecionado {
+.carrossel-botoes-carrossel .carrossel-botao.selecionado {
 	background-color: #10757A;
     width: 17px;
 	height: 17px;
