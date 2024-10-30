@@ -1,0 +1,186 @@
+/* geral */
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* reset */
+body {
+	margin: 0;
+}
+
+h1 {
+	margin: 150px;
+	color:#10757A;
+	margin-top: auto;
+} 
+h2, h3, h4, h5, p, span {
+	margin: 0;
+	color:#3b3939;
+}
+
+.container {
+	max-width: 1920px;
+	width: 100%;
+}
+
+/* header */
+header {
+	position: relative;
+	top: 0;
+	height: auto;
+	width: 100%;
+}
+
+/* navbar */
+nav {
+	position: fixed;
+	top: 0;
+	height: 100px;
+	width: 100%;
+	z-index: 1;
+	background-color: #C11926;
+	border-bottom: 1px solid #CCC;
+ }
+
+ nav:after {
+ 	clear: both;
+ 	content: "";
+ 	display: block;
+ }
+
+ .nav-container {
+ 	max-width: 1200px;
+ 	position: relative;
+ 	margin-right: auto;
+ 	margin-left: auto;
+ }
+
+ #logo {
+	width: 203px;
+	height: 100px;
+	margin-top: 10px;
+   margin-left: 20px;
+   max-width: 300px;
+   margin-right: 10px;
+ }
+
+ .nav-container ul {
+ 	float: right;
+ 	height: 100px;
+ 	line-height: 100px;
+ 	margin: 0;
+ }
+
+ .nav-container li {
+ 	list-style: none;
+ 	float: left;
+ 	margin: 0 15px;
+ }
+
+ .nav-container li a {
+ 	text-decoration: none;
+ 	color: #FFF;
+ 	transition: .5s;
+ }
+
+ .nav-container li a:hover {
+ 	color: #3381F3;
+ }
+
+/* banner  */
+ #main-banner {
+ 	background-color: red;
+ 	background: url('../img/oii.jpeg') no-repeat;
+ 	background-size: cover;
+ 	background-position: 0 55%;
+ 	position: relative;
+ 	margin-top: 100px;
+ }
+
+ #search-form {
+ 	position: relative;
+ 	width: 80%;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	padding-top: 15em;
+ 	padding-bottom: 15em;
+ 	text-align: center;
+ }
+
+ #search-form h1 {
+ 	font-size: 45px;
+	margin-top: -120px;
+ 	margin-bottom: 100px;
+ 	font-weight: 300px;
+	margin-left:-550px;
+ }
+
+ #search-form h2 {
+  font-size: 25px;
+	margin-top: 25px;
+ 	margin-bottom: 60px;
+ 	font-weight: 300px;
+	margin-left: -200px;
+ }
+
+ #search-form p {
+ 	margin-top: 10px;
+ 	margin-bottom: 30px;
+ 	font-size: 20px;
+ 	font-weight: 300px;
+	color: #696868;
+ }
+
+/* Formulario */
+#search-form input{
+	width:438px ;
+	height:48px;
+	border-radius:10px;
+	border:#10757A ;
+  }
+  #search-form [input=submit]{	background-color: #808080;
+	text-transform: uppercase;
+	color: #000000;
+	cursor: pointer;
+	transition: 0.5s;
+	position: fixed;
+	forced-color-adjust: s;
+	width:200px ;
+	height:300px;
+	border-radius:60px;
+}
+
+  #search-form [type=submit]:hover {
+  	background-color: #10757A;
+	  width:20px ;
+	  height:3px;
+	  border-radius:60px;
+  	/*background-color: #191970;*/
+	/*esse e o que muda cor d input do cpf*/
+ }
+ #search-form input{
+ color: #0c0b0b;
+ cursor: pointer;
+
+}
+#search-form input:hover{
+	background-color: #ffffff;
+	border-color: #C11926;
+	/*background-color: #191970;*/
+}
+#search-form h6 {
+	font-size: 10px;
+	  margin-top: 25px;
+	   margin-bottom: 60px;
+	   font-weight: 30px;
+	  margin-left: -200px;
+	  color: #808080;
+   }
+   #search-form h3 {
+	font-size: 100%;
+	  margin-top: 25px;
+	   margin-bottom: 60px;
+	   font-weight: 30px;
+	  margin-left: -500px;
+	  color: #595959;
+   }
