@@ -1,15 +1,16 @@
 
 .carrossel-botaoprodutos {
 	display: flex;
-	justify-content: center;  
     gap: 1500px;
-	top: 50%; transform: translateY(-50%);
-	padding-bottom: 300px;
+	position: absolute;
+	top: 50%;
+	margin-left: 150px;
 }
 
 .carrossel-produtos {
  	text-align: center;  
  	padding-right: 40px;
+	position: relative;
 
 }
 
@@ -28,22 +29,22 @@
 }
 
 .carrossel-botoes-proxima {
-    display: flex;
-	justify-content: center; 
-    gap: 1350px;
-
+	position: absolute;
+	top: 50%;
 }
 
 .carrossel-botoes-proxima .carrossel-botao-volta {
     width: 35px;
 	height: 35px;
     cursor: pointer;
+	margin-left: 200px;
 }
 
 .carrossel-botoes-proxima .carrossel-botao-vai {
     width: 35px;
 	height: 35px;
     cursor: pointer;
+	margin-left: 1455px;
 }
 
 
@@ -52,7 +53,12 @@
 	left: 0;
 	width: 100%;
 	z-index: -1;
+	position: relative;
+}
 
+.imagem {
+	width: 100%; /* Ajusta a largura da imagem ao container */
+ 	height: auto;
 }
 
 .carrossel-conteudo {
@@ -66,7 +72,7 @@
 	display: flex;
 	justify-content: center;
 	gap: 15px;
-    padding-top: 175px;
+    padding-top: 50px;
 }
 
 .carrossel-botoes-carrossel .carrossel-botao {
